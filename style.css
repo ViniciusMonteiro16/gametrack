@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #11131a;
+  color: #f1f1f1;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #191c27;
+  border-bottom: 1px solid #2c3040;
+  padding: 28px 0;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #9b7cff;
+  margin-bottom: 6px;
+}
+
+.header p {
+  color: #a7a9b4;
+  font-size: 15px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: #1a1d27;
+  border: 1px solid #2d3140;
+  border-radius: 14px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  border-color: #7659d9;
+}
+
+.stat-card h2 {
+  font-size: 32px;
+  color: #9b7cff;
+  margin-bottom: 8px;
+}
+
+.stat-card p {
+  color: #aaaebb;
+  font-size: 14px;
+}
+
+.filtros {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 18px;
+  background: #191c26;
+  border: 1px solid #2d3140;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.campo-pesquisa,
+.campo-filtro {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  color: #d9dae0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: 9px;
+  border: 1px solid #363a4b;
+  background: #11131a;
+  color: #f1f1f1;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #8b6ff0;
+}
+
+input::placeholder {
+  color: #707381;
+}
+
+.mensagem {
+  min-height: 25px;
+  margin-bottom: 20px;
+  color: #9b7cff;
+  font-size: 14px;
+}
+
+section > h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.lista-jogos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.card-jogo {
+  background: #1a1d27;
+  border: 1px solid #2d3140;
+  border-radius: 14px;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.card-jogo:hover {
+  transform: translateY(-4px);
+  border-color: #7659d9;
+}
+
+.card-jogo h3 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card-jogo p {
+  color: #a9acb8;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.card-jogo .nota {
+  color: #ffd166;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: #292d3c;
+  color: #bcaaff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-botoes {
+  display: flex;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.card-botoes button {
+  flex: 1;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.btn-editar {
+  background: #6652bd;
+  color: white;
+}
+
+.btn-editar:hover {
+  background: #7964d5;
+}
+
+.btn-excluir {
+  background: #43242c;
+  color: #ff9cae;
+}
+
+.btn-excluir:hover {
+  background: #5b2934;
+}
+
+.formulario-section {
+  background: #191c26;
+  border: 1px solid #2d3140;
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 40px;
+}
+
+.formulario-section h2 {
+  margin-bottom: 22px;
+}
+
+#formJogo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.botoes-formulario {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+
+.botoes-formulario button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+#btnSalvar {
+  background: #7659d9;
+  color: white;
+}
+
+#btnSalvar:hover {
+  background: #896eea;
+}
+
+#btnCancelar {
+  background: #303442;
+  color: #ddd;
+}
+
+#btnCancelar:hover {
+  background: #3b3f4e;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #666a78;
+  border-top: 1px solid #242735;
+  font-size: 13px;
+}

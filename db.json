@@ -1,0 +1,77 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Minecraft",
+      "genero": "Sandbox",
+      "plataforma": "PC e Console",
+      "nota": 9,
+      "status": "Jogando"
+    },
+    {
+      "id": "2",
+      "titulo": "Valorant",
+      "genero": "FPS",
+      "plataforma": "PC e  Console",
+      "nota": 9,
+      "status": "Jogando"
+    },
+    {
+      "id": "3",
+      "titulo": "Rocket League",
+      "genero": "Esportes",
+      "plataforma": "PC e Console",
+      "nota": 8,
+      "status": "Jogando"
+    },
+    {
+      "id": "bGRf-QQLX9M",
+      "titulo": "Hollow Knight",
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "nota": 10,
+      "status": "Finalizado"
+    },
+    {
+      "id": "_r6Sj0rQMig",
+      "titulo": "Skul",
+      "genero": "Roguelite",
+      "plataforma": "PC e Console",
+      "nota": 10,
+      "status": "Quero jogar"
+    },
+    {
+      "titulo": "GTA VI",
+      "genero": "Ação",
+      "plataforma": "Console",
+      "nota": 10,
+      "status": "Quero jogar",
+      "id": "nMZtnCUDJfc"
+    },
+    {
+      "titulo": "Fortnite",
+      "genero": "Battle Royale",
+      "plataforma": "PC e Conosole",
+      "nota": 9,
+      "status": "Abandonado",
+      "id": "6HlqEqojUyI"
+    },
+    {
+      "titulo": "GTA V",
+      "genero": "Ação",
+      "plataforma": "PC e Console",
+      "nota": 9,
+      "status": "Finalizado",
+      "id": "j82O5nWL3sw"
+    },
+    {
+      "titulo": "EA FC 27",
+      "genero": "Esportes",
+      "plataforma": "PC e Console",
+      "nota": 9,
+      "status": "Quero jogar",
+      "id": "U83EA1WxTKY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
